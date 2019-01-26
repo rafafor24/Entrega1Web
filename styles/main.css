@@ -419,8 +419,12 @@
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-          box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  -webkit-box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+          box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
@@ -889,7 +893,7 @@
   line-height: 2.2;
   border-radius: 50%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   position: relative;
   cursor: pointer;
@@ -1153,7 +1157,7 @@
   line-height: 41px;
   float: left;
   margin: 1%;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   border-radius: 50%;
 }
@@ -1978,7 +1982,7 @@ fieldset[disabled]
 }
 
 .btn-sm {
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 0.1875rem;
   padding: 5px 15px;
 }
@@ -2098,7 +2102,7 @@ fieldset[disabled]
 
 .form-control + .form-control-feedback {
   border-radius: 0.25rem;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   position: absolute;
   left: 18px;
@@ -2407,7 +2411,7 @@ textarea.form-control:focus, textarea.form-control:active {
   content: "\ea22";
   top: 0px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0;
   color: #555555;
   border: 0;
@@ -2727,7 +2731,7 @@ textarea.form-control:focus, textarea.form-control:active {
   line-height: 30px;
   color: #2c2c2c;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   background: transparent;
 }
@@ -2986,7 +2990,7 @@ p {
 
 body {
   color: #2c2c2c;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -3175,7 +3179,7 @@ body {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 11px 23px;
   line-height: 1.5;
 }
@@ -3190,7 +3194,7 @@ body {
 }
 
 .nav-tabs > .nav-item > .nav-link i.now-ui-icons {
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
   top: 1px;
   margin-right: 3px;
@@ -3428,7 +3432,7 @@ body {
   border-radius: 0.125rem;
   -webkit-transition: all 150ms linear;
   transition: all 150ms linear;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .dropdown-menu.dropdown-menu-right:before {
@@ -3697,7 +3701,7 @@ img {
 }
 
 .popover {
-  font-size: 14px;
+  font-size: 16px;
   -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
   border: none;
@@ -3717,7 +3721,7 @@ img {
 
 .popover .popover-header {
   color: rgba(182, 182, 182, 0.6);
-  font-size: 14px;
+  font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
   margin: 0;
@@ -3900,7 +3904,7 @@ img {
   padding: 0.5rem 0.7rem;
   min-width: 130px;
   background-color: #FFFFFF;
-  font-size: 14px;
+  font-size: 16px;
   color: inherit;
   -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
@@ -6958,7 +6962,7 @@ Created using IcoMoon - icomoon.io
 
 @media (max-width: 480px) {
   .gallery figure.cc-effect .h4 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
